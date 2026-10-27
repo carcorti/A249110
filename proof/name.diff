@@ -1,0 +1,12 @@
+--- historical/src/Makefile
++++ public/src/Makefile
+@@ -14,8 +14,7 @@
+ 	$(CC) $(CPPFLAGS) $(BIND) $(CFLAGS) -o $@ a249110.c $(LDFLAGS) $(LDLIBS)
+ 
+ check: a249110
+-	python3 -B ../validation/check.py
+-	python3 -B ../validation/wide.py
++	python3 -B ../check/verify.py native
+ 
+ clean:
+ 	rm -f a249110

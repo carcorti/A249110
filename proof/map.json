@@ -1,0 +1,1997 @@
+{
+  "schema": 1,
+  "author": "Carlo Corti",
+  "prepared": "2026-10-27",
+  "status": "PACKAGE_DRAFT \u2014 AWAITING AUTHOR INSPECTION",
+  "archive_layout": "compact members; original paths reconstructed only outside payload",
+  "historical_identity": {
+    "src/a249110.c": "4dd14813bef00ed88eb7fec188afa26d7ebd6b80dce3168963ee1b8fc28324c9",
+    "src/Makefile": "a87630040811d0ccffdedc7f6df0959685d472fc82b867026a2a2e80ddf57cc1",
+    "src/a249110": "ae6b1e896bd0164bc9a87d568111e518b49b7ae8497f85f2e97d1c8a11b7028f"
+  },
+  "public_makefile_sha256": "d7a35333ed20d90645c705d2b2d9493ea4801cdf9ed48afc5c6a6d8a657b6c31",
+  "archives": [
+    {
+      "path": "proof/run.tgz",
+      "bytes": 47087,
+      "sha256": "0293a7b9b23a9c192d9ee8a8fc43d050c27b98a352617ee19f6a8680fa0ba446",
+      "expanded_bytes": 107624,
+      "members": [
+        {
+          "member": "f0000.tsv",
+          "origin": "runs/22E9/hits.tsv",
+          "restore": "runs/22E9/hits.tsv",
+          "bytes": 114,
+          "sha256": "233a709903fa64d32802c38c2445e345b69f869aaf50db95c08a9d2f06211b3f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0001.tsv",
+          "origin": "runs/22E9/man.tsv",
+          "restore": "runs/22E9/man.tsv",
+          "bytes": 479,
+          "sha256": "18a85152aae6e33a0af6e80d9b450cf662b31049710f3e417552218ab6b3e26b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0002.cfg",
+          "origin": "runs/22E9/run.cfg",
+          "restore": "runs/22E9/run.cfg",
+          "bytes": 803,
+          "sha256": "e91059e9d510e519647b42fddc98de5dd037e64d8fc958e138abe220ef95d812",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0003.sha",
+          "origin": "runs/22E9/s000.sha",
+          "restore": "runs/22E9/s000.sha",
+          "bytes": 65,
+          "sha256": "561f15b570b66763fe4ecbbcc658fbe47d130ea0dc4ddf7952bb21f3136c3b0f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0004.tsv",
+          "origin": "runs/22E9/s000.tsv",
+          "restore": "runs/22E9/s000.tsv",
+          "bytes": 276,
+          "sha256": "1bbe437b14d6123061b86b8b4005afbe0f24446cc7a48511e19e7f8321a5ef99",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0005.sha",
+          "origin": "runs/22E9/s001.sha",
+          "restore": "runs/22E9/s001.sha",
+          "bytes": 65,
+          "sha256": "014796e09c3910ee0bf362d7b3649d9bdb19f4723ada584b2fd6c620b9083c18",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0006.tsv",
+          "origin": "runs/22E9/s001.tsv",
+          "restore": "runs/22E9/s001.tsv",
+          "bytes": 276,
+          "sha256": "192ab3e45b8a58591db39e0b2461414d6b16ff62b79d94039c8cc7ab9da9a101",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0007.sha",
+          "origin": "runs/22E9/s002.sha",
+          "restore": "runs/22E9/s002.sha",
+          "bytes": 65,
+          "sha256": "5add958442cd3e97b89079f50ab385e35a99e78579677d79df159123b17a18ca",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0008.tsv",
+          "origin": "runs/22E9/s002.tsv",
+          "restore": "runs/22E9/s002.tsv",
+          "bytes": 276,
+          "sha256": "18ac4fed46000262d0fc907247bc859dbefb74a33b8695536403a33c4f3300e1",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0009.tsv",
+          "origin": "runs/5E10/hits.tsv",
+          "restore": "runs/5E10/hits.tsv",
+          "bytes": 448,
+          "sha256": "5fdf36b812d80bc3b09e5108a1c2e52ea7adad169d9aeffc1816d1980d9bf96d",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0010.tsv",
+          "origin": "runs/5E10/man.tsv",
+          "restore": "runs/5E10/man.tsv",
+          "bytes": 3409,
+          "sha256": "7f2587e771e57d150b18fca7674b0e3f685d50202ecb8637b55916b2539fe27a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0011.cfg",
+          "origin": "runs/5E10/run.cfg",
+          "restore": "runs/5E10/run.cfg",
+          "bytes": 763,
+          "sha256": "433855a2d743192d85f465b70894d1d4b26d1e85a6481a984f56fe4cd8a63d59",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0012.sha",
+          "origin": "runs/5E10/s000.sha",
+          "restore": "runs/5E10/s000.sha",
+          "bytes": 65,
+          "sha256": "f42bf925c3d7799ce8bee99fac2a2ad3a5885e4c12988e0fefb247836bb65da4",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0013.tsv",
+          "origin": "runs/5E10/s000.tsv",
+          "restore": "runs/5E10/s000.tsv",
+          "bytes": 387,
+          "sha256": "750ac66800efc48801a94609c6fbb7840ba4c95552de53179ea206d21dea6abb",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0014.sha",
+          "origin": "runs/5E10/s001.sha",
+          "restore": "runs/5E10/s001.sha",
+          "bytes": 65,
+          "sha256": "dfd0c7d907b912bb09f8794a202c1041224de29848aaca31619b3bd745d2a052",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0015.tsv",
+          "origin": "runs/5E10/s001.tsv",
+          "restore": "runs/5E10/s001.tsv",
+          "bytes": 273,
+          "sha256": "dcd68501a825a40a6291cdaff91f1bcec928575ee27a8f2a329b78555cecf9cc",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0016.sha",
+          "origin": "runs/5E10/s002.sha",
+          "restore": "runs/5E10/s002.sha",
+          "bytes": 65,
+          "sha256": "a5743b90434ad43108600c9490ce7c7723daa9ba6cf357dbf93ede64509b96a0",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0017.tsv",
+          "origin": "runs/5E10/s002.tsv",
+          "restore": "runs/5E10/s002.tsv",
+          "bytes": 273,
+          "sha256": "1c4740d5f19fe2ee8f761946cf72fba9157a7d11d5362d82e8a3e9714438bf73",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0018.sha",
+          "origin": "runs/5E10/s003.sha",
+          "restore": "runs/5E10/s003.sha",
+          "bytes": 65,
+          "sha256": "7e60db95e2b73f21a1e2e33b7dab4b6fe4b7e0f4ac67b62841c6c6aef14d5f5b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0019.tsv",
+          "origin": "runs/5E10/s003.tsv",
+          "restore": "runs/5E10/s003.tsv",
+          "bytes": 273,
+          "sha256": "8ba64554aeefb76880b42e79dbfc1133aa5aa159a903bf21adac13102997129a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0020.sha",
+          "origin": "runs/5E10/s004.sha",
+          "restore": "runs/5E10/s004.sha",
+          "bytes": 65,
+          "sha256": "e55bcd4eb800141e396d3f270664fd14ed9368fe57714249d453cd6b83f41d5a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0021.tsv",
+          "origin": "runs/5E10/s004.tsv",
+          "restore": "runs/5E10/s004.tsv",
+          "bytes": 273,
+          "sha256": "76924625d52db9d4bb93f6aea5aceb7419b601602181a34a4a22926146a0d14e",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0022.sha",
+          "origin": "runs/5E10/s005.sha",
+          "restore": "runs/5E10/s005.sha",
+          "bytes": 65,
+          "sha256": "08a12cbaf56d2c9f5c1c52c588de4a3e22c8c4bea4a02e74886652c0deaec44c",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0023.tsv",
+          "origin": "runs/5E10/s005.tsv",
+          "restore": "runs/5E10/s005.tsv",
+          "bytes": 273,
+          "sha256": "db084c6c6f5b062b5e4650880571aaeb6730e868e6f00130d5a5436360bdde44",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0024.sha",
+          "origin": "runs/5E10/s006.sha",
+          "restore": "runs/5E10/s006.sha",
+          "bytes": 65,
+          "sha256": "fc2f9fac65304cceed62abea7bb5821be98528f1a1a6b7db935929eef8032550",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0025.tsv",
+          "origin": "runs/5E10/s006.tsv",
+          "restore": "runs/5E10/s006.tsv",
+          "bytes": 273,
+          "sha256": "c67760267f338eb9ce7c213f45235a306aa171459162b3396d9309d4365adf0a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0026.sha",
+          "origin": "runs/5E10/s007.sha",
+          "restore": "runs/5E10/s007.sha",
+          "bytes": 65,
+          "sha256": "ba9a2a73d1754b20adf6d62d5218f51647157f89a482ae1bc37cca2f2a61da10",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0027.tsv",
+          "origin": "runs/5E10/s007.tsv",
+          "restore": "runs/5E10/s007.tsv",
+          "bytes": 273,
+          "sha256": "edbf01ba269c10ed4babca6a5a0492236c249320b520ee8fc76c1981b2ff4445",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0028.sha",
+          "origin": "runs/5E10/s008.sha",
+          "restore": "runs/5E10/s008.sha",
+          "bytes": 65,
+          "sha256": "4897580a97cf847bd780b9fe70039ab49585ada22a0af823c8d65bd7649e668b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0029.tsv",
+          "origin": "runs/5E10/s008.tsv",
+          "restore": "runs/5E10/s008.tsv",
+          "bytes": 273,
+          "sha256": "9bc957dbc308d9556f67c235563d749274b723c0a47df2c5a1e71ea210ff3abd",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0030.sha",
+          "origin": "runs/5E10/s009.sha",
+          "restore": "runs/5E10/s009.sha",
+          "bytes": 65,
+          "sha256": "eefa8bf0bcef0cd675fcb1783dc560c6d9ac6ad1b7100e733d0476df94d33e8d",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0031.tsv",
+          "origin": "runs/5E10/s009.tsv",
+          "restore": "runs/5E10/s009.tsv",
+          "bytes": 273,
+          "sha256": "f41c911e83507c5d68a229dc59d8558147a179527de93a3e946b78e3b3038d3a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0032.sha",
+          "origin": "runs/5E10/s010.sha",
+          "restore": "runs/5E10/s010.sha",
+          "bytes": 65,
+          "sha256": "719b47e5763397486a3bc54e503047c0a030bda4cdb134b165664b6b86394ec5",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0033.tsv",
+          "origin": "runs/5E10/s010.tsv",
+          "restore": "runs/5E10/s010.tsv",
+          "bytes": 274,
+          "sha256": "6f3a74615b8e07c4c843ac0f0be569d4198d0be1705fe615179b3de6f9835b28",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0034.sha",
+          "origin": "runs/5E10/s011.sha",
+          "restore": "runs/5E10/s011.sha",
+          "bytes": 65,
+          "sha256": "ac8515fe37393964ff537e5d381864e5aaf4fc43c0015faebf829530a3544c04",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0035.tsv",
+          "origin": "runs/5E10/s011.tsv",
+          "restore": "runs/5E10/s011.tsv",
+          "bytes": 394,
+          "sha256": "a3f8732aa972bbb1f558364469aaf6c128959cfa61f7943db867fb970db4f677",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0036.sha",
+          "origin": "runs/5E10/s012.sha",
+          "restore": "runs/5E10/s012.sha",
+          "bytes": 65,
+          "sha256": "e4c1388e8c601a165f7a0d840de347f916366654f92e0d764744ac4b07e9a225",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0037.tsv",
+          "origin": "runs/5E10/s012.tsv",
+          "restore": "runs/5E10/s012.tsv",
+          "bytes": 274,
+          "sha256": "9d3511fb90b8570aafe8790f193d26dfb84a4ba272a75c0f551300ba976b2361",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0038.sha",
+          "origin": "runs/5E10/s013.sha",
+          "restore": "runs/5E10/s013.sha",
+          "bytes": 65,
+          "sha256": "b6397314fd64cf2c06dd57f4500ad734d612c91e7ccb5b8029b1e38cfa3d9d54",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0039.tsv",
+          "origin": "runs/5E10/s013.tsv",
+          "restore": "runs/5E10/s013.tsv",
+          "bytes": 276,
+          "sha256": "8c7556bf65171ec3d686bb293f74281c2daacfb922c9ab0f015d41697075fe22",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0040.sha",
+          "origin": "runs/5E10/s014.sha",
+          "restore": "runs/5E10/s014.sha",
+          "bytes": 65,
+          "sha256": "ef48dc915b12ef5922a1714f1aa9d8aa3c1c5f1b9b4506c949efd511f5818844",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0041.tsv",
+          "origin": "runs/5E10/s014.tsv",
+          "restore": "runs/5E10/s014.tsv",
+          "bytes": 389,
+          "sha256": "aa852e6d5895d4c3777147ba963e840ead653776bed8881b98a4d0d5f03e0b87",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0042.sha",
+          "origin": "runs/5E10/s015.sha",
+          "restore": "runs/5E10/s015.sha",
+          "bytes": 65,
+          "sha256": "a1d0f3abe719002778ff4eee0420515b0a5ca34b36767cd97d8225ea0d5d1444",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0043.tsv",
+          "origin": "runs/5E10/s015.tsv",
+          "restore": "runs/5E10/s015.tsv",
+          "bytes": 277,
+          "sha256": "f3d392aac7bd873fa9e7a0e6cc6cde11a15f70a1b8a71edcf58fee93ddb46244",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0044.sha",
+          "origin": "runs/5E10/s016.sha",
+          "restore": "runs/5E10/s016.sha",
+          "bytes": 65,
+          "sha256": "28f050c7550f86a028cddae1362b8d334811a267092877144ff2b95fd67a06b5",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0045.tsv",
+          "origin": "runs/5E10/s016.tsv",
+          "restore": "runs/5E10/s016.tsv",
+          "bytes": 277,
+          "sha256": "7ec7b3e92c0bf39d4eeb4742a3887f2d6823fb614271719ba4976c5c2f379154",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0046.sha",
+          "origin": "runs/5E10/s017.sha",
+          "restore": "runs/5E10/s017.sha",
+          "bytes": 65,
+          "sha256": "b0cf524d3835daa3994954346836878482ddfac8618a5237b96802cfdff2f84b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0047.tsv",
+          "origin": "runs/5E10/s017.tsv",
+          "restore": "runs/5E10/s017.tsv",
+          "bytes": 277,
+          "sha256": "f170ba6f59f11fd923def71a2a3f1468246f2572f85f80a232947f1841b7a8ba",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0048.sha",
+          "origin": "runs/5E10/s018.sha",
+          "restore": "runs/5E10/s018.sha",
+          "bytes": 65,
+          "sha256": "eaf46ab7e7444c60df4760f28157afc30c63cd4f01079796314a0b7d21e026e0",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0049.tsv",
+          "origin": "runs/5E10/s018.tsv",
+          "restore": "runs/5E10/s018.tsv",
+          "bytes": 277,
+          "sha256": "45e2c46820396d8b206fcaaf8165238719dfc62af9e9b31d93b4d81b4fc0fb3c",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0050.sha",
+          "origin": "runs/5E10/s019.sha",
+          "restore": "runs/5E10/s019.sha",
+          "bytes": 65,
+          "sha256": "721accd9923a4baa5c0fa23e622a913044d64de3c3417257bd71df4b702f1772",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0051.tsv",
+          "origin": "runs/5E10/s019.tsv",
+          "restore": "runs/5E10/s019.tsv",
+          "bytes": 277,
+          "sha256": "149860b6f704df01d01131041ea90dc42afca2b95193c10693ee7b119a8159ae",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0052.sha",
+          "origin": "runs/5E10/s020.sha",
+          "restore": "runs/5E10/s020.sha",
+          "bytes": 65,
+          "sha256": "ea7f05fd90333b7a91bd410af2c4de3e407ecd938cb803a9a6f678467d053837",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0053.tsv",
+          "origin": "runs/5E10/s020.tsv",
+          "restore": "runs/5E10/s020.tsv",
+          "bytes": 277,
+          "sha256": "924fcb88f429fd93a094ea4ced8eeb360f1fabeb51da05be7230ecd8b714c933",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0054.sha",
+          "origin": "runs/5E10/s021.sha",
+          "restore": "runs/5E10/s021.sha",
+          "bytes": 65,
+          "sha256": "f3c295c506926d13e63c76059fcbc776a17405c546d0a45fba3c105f89166bcf",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0055.tsv",
+          "origin": "runs/5E10/s021.tsv",
+          "restore": "runs/5E10/s021.tsv",
+          "bytes": 277,
+          "sha256": "fa21989fa96eaa4383d92b66bd0012f441e066a01de96da0b599847e5aa2ce2c",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0056.sha",
+          "origin": "runs/5E10/s022.sha",
+          "restore": "runs/5E10/s022.sha",
+          "bytes": 65,
+          "sha256": "53565defa7f44d060d7d145cc49e4e4e8f3d2ad4937abf12715b8c51ba415330",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0057.tsv",
+          "origin": "runs/5E10/s022.tsv",
+          "restore": "runs/5E10/s022.tsv",
+          "bytes": 277,
+          "sha256": "37b295d6ca892bf6137a215919228ba3ad48761eafa7ab9cdf2e6906f5b1f623",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0058.sha",
+          "origin": "runs/5E10/s023.sha",
+          "restore": "runs/5E10/s023.sha",
+          "bytes": 65,
+          "sha256": "622f732c238eefc023652ac2bd2de6594f2e12a934203421b1549ae224b819a8",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0059.tsv",
+          "origin": "runs/5E10/s023.tsv",
+          "restore": "runs/5E10/s023.tsv",
+          "bytes": 277,
+          "sha256": "b0d8347e2e82aa25861235544736fa3ad98f34f69ee58ef9a8d167d8d33e2a22",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0060.sha",
+          "origin": "runs/5E10/s024.sha",
+          "restore": "runs/5E10/s024.sha",
+          "bytes": 65,
+          "sha256": "c8f50055c48c1b938e4775a686b12e4a34f439da7dda01f4ff5fc4c76a2f7665",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0061.tsv",
+          "origin": "runs/5E10/s024.tsv",
+          "restore": "runs/5E10/s024.tsv",
+          "bytes": 277,
+          "sha256": "47512f96321642a7444d937594de7a7c856fd7df3344e99c360e6d32a33a7b76",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0062.sha",
+          "origin": "runs/5E10/s025.sha",
+          "restore": "runs/5E10/s025.sha",
+          "bytes": 65,
+          "sha256": "263cd42ae6c237f79d92d868842601adc42fa6eb879d0d49f332677fa27a0ce4",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0063.tsv",
+          "origin": "runs/5E10/s025.tsv",
+          "restore": "runs/5E10/s025.tsv",
+          "bytes": 277,
+          "sha256": "b0df1b1fe64e53929253627e8cbbd12c5c9b893bde3ac1896121ee26e787798f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0064.sha",
+          "origin": "runs/5E10/s026.sha",
+          "restore": "runs/5E10/s026.sha",
+          "bytes": 65,
+          "sha256": "8c089458e54f88af6a3ec06c62d1ca781275c5681e7b74f8a1c523c52bd8423d",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0065.tsv",
+          "origin": "runs/5E10/s026.tsv",
+          "restore": "runs/5E10/s026.tsv",
+          "bytes": 277,
+          "sha256": "93115770342c6a6e97aac4c7e18da4e687e88603fabde64b8324992fcd9bf5f3",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0066.sha",
+          "origin": "runs/5E10/s027.sha",
+          "restore": "runs/5E10/s027.sha",
+          "bytes": 65,
+          "sha256": "bf4aee747e2a683b32c31154432709c01e9e709a958862cd5eeedae74abf9474",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0067.tsv",
+          "origin": "runs/5E10/s027.tsv",
+          "restore": "runs/5E10/s027.tsv",
+          "bytes": 277,
+          "sha256": "e6a4066483caf1e6d62651e4d4c715fb28d7c6c1d505fce80d9fde1889990440",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0068.sha",
+          "origin": "runs/5E10/s028.sha",
+          "restore": "runs/5E10/s028.sha",
+          "bytes": 65,
+          "sha256": "6cd8c7a11cd7765c204cd05ba4fa8c95794587b3a45f70f85b3f9c42a5b19d1e",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0069.tsv",
+          "origin": "runs/5E10/s028.tsv",
+          "restore": "runs/5E10/s028.tsv",
+          "bytes": 277,
+          "sha256": "347b06e076c347aef6820c3bcd6964ab72d8206d4934dc7474449f25eb3d015b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0070.tsv",
+          "origin": "runs/5E10/s029.tsv",
+          "restore": "runs/5E10/s029.tsv",
+          "bytes": 263,
+          "sha256": "e1f737de0d8a8a064d34e5c6d40c77c9ee14ce6cc6183f9b1496eafa8954367c",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0071.tsv",
+          "origin": "runs/5E10/s030.tsv",
+          "restore": "runs/5E10/s030.tsv",
+          "bytes": 263,
+          "sha256": "5014af322224866d055e5080cffcf5abb0a031b6ee7bea28c811914c26c25df9",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0072.tsv",
+          "origin": "runs/5E10/s031.tsv",
+          "restore": "runs/5E10/s031.tsv",
+          "bytes": 263,
+          "sha256": "21317f94ab580a7223076d36683289a9755d2167879ef93b3ab23b689834c65e",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0073.tsv",
+          "origin": "runs/5E10/s032.tsv",
+          "restore": "runs/5E10/s032.tsv",
+          "bytes": 263,
+          "sha256": "3e769fbc69c3c40f6f30542dbbbce981c5ed35370edea8ff509b967b1d8694e3",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0074.tsv",
+          "origin": "runs/5E10/s033.tsv",
+          "restore": "runs/5E10/s033.tsv",
+          "bytes": 263,
+          "sha256": "547a54faf5957738c6299538e17fae4a0b80a8d55fcfe778268cf398f55860d1",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0075.tsv",
+          "origin": "runs/5E10/s034.tsv",
+          "restore": "runs/5E10/s034.tsv",
+          "bytes": 263,
+          "sha256": "86a46bac47d5fdeeead3c9135e26d95c66964dbb1ca02f0169250ca93349443f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0076.tsv",
+          "origin": "runs/5E10/s035.tsv",
+          "restore": "runs/5E10/s035.tsv",
+          "bytes": 263,
+          "sha256": "21503a3aba9ee439b1d4fa164f512885a29ccbb9cc0bc2cd369918dcfea97f11",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0077.tsv",
+          "origin": "runs/5E10/s036.tsv",
+          "restore": "runs/5E10/s036.tsv",
+          "bytes": 263,
+          "sha256": "090bc770a1ecfd800f0889dcfb35430441f39d61fe1a8902197ca733a84cdc87",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0078.tsv",
+          "origin": "runs/5E10/s037.tsv",
+          "restore": "runs/5E10/s037.tsv",
+          "bytes": 263,
+          "sha256": "56d4454d37fe6d136befc863d1826348803b3cb0d77fd27b5ddb66e603a7e9e0",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0079.tsv",
+          "origin": "runs/5E10/s038.tsv",
+          "restore": "runs/5E10/s038.tsv",
+          "bytes": 263,
+          "sha256": "260f17fa02af4b8251f40f1ee2c15fb3f4911b96142adf3a10a5808fb66e6c2b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0080.tsv",
+          "origin": "runs/5E10/s039.tsv",
+          "restore": "runs/5E10/s039.tsv",
+          "bytes": 263,
+          "sha256": "0fa74a02855cfaf5ee5c2cffa8d94f0fabf6e6fafd69e50f2b41da48809a1fb1",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0081.tsv",
+          "origin": "runs/5E10/s040.tsv",
+          "restore": "runs/5E10/s040.tsv",
+          "bytes": 263,
+          "sha256": "678c882f8d4ece02d92299141cd10d2b7dddb15cb7a046b2381a776c4840d3eb",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0082.tsv",
+          "origin": "runs/5E10/s041.tsv",
+          "restore": "runs/5E10/s041.tsv",
+          "bytes": 263,
+          "sha256": "a6f643a4a2129c20d46082c0f9e19560c375d1d4b2dfd0f5caa787f4b4f72464",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0083.tsv",
+          "origin": "runs/5E10/s042.tsv",
+          "restore": "runs/5E10/s042.tsv",
+          "bytes": 263,
+          "sha256": "24c61208b900c1f1dffebe565719d1be6a09e51c2012e1b0433aefb8c213c006",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0084.tsv",
+          "origin": "runs/5E10/s043.tsv",
+          "restore": "runs/5E10/s043.tsv",
+          "bytes": 263,
+          "sha256": "6c059f5c16cc2da80bc92e9a0aa749d4a2c5b9ba502ac4bcf9ad024d0239cb13",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0085.tsv",
+          "origin": "runs/5E10/s044.tsv",
+          "restore": "runs/5E10/s044.tsv",
+          "bytes": 263,
+          "sha256": "0103ee449fa1356794f7c0838b9b74c27f384f388bf3ffcb202ed8cd325d2135",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0086.tsv",
+          "origin": "runs/5E10/s045.tsv",
+          "restore": "runs/5E10/s045.tsv",
+          "bytes": 263,
+          "sha256": "77dfafb9937f64ff7603a237f7c3aa4f1f3dfb7b48d900c96c5bdadd4cb77df4",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0087.tsv",
+          "origin": "runs/5E10/s046.tsv",
+          "restore": "runs/5E10/s046.tsv",
+          "bytes": 263,
+          "sha256": "cb838be81c7efcb58e0ad8185d855a22dbb810f9bea83125a92083175da1520e",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0088.tsv",
+          "origin": "runs/5E10/s047.tsv",
+          "restore": "runs/5E10/s047.tsv",
+          "bytes": 263,
+          "sha256": "8c34a0c2e0f62c136b2f39085438998432427ed406107c783689c64fba53c8e5",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0089.tsv",
+          "origin": "runs/5E10/s048.tsv",
+          "restore": "runs/5E10/s048.tsv",
+          "bytes": 263,
+          "sha256": "38295755bbf708a8c8882758228d58e6ded81405edeb581b9429bea43e05f4da",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0090.tsv",
+          "origin": "runs/5E10/s049.tsv",
+          "restore": "runs/5E10/s049.tsv",
+          "bytes": 263,
+          "sha256": "02ee72d9451190f6664908907f2416cf4d36ce334e1deee42bd2f63778687d28",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0091.tsv",
+          "origin": "runs/5E10/s050.tsv",
+          "restore": "runs/5E10/s050.tsv",
+          "bytes": 263,
+          "sha256": "1398c01267439739972e487660b7a16f238a595fccdfaa0689666dc2d0e71aef",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0092.tsv",
+          "origin": "runs/5E10/s051.tsv",
+          "restore": "runs/5E10/s051.tsv",
+          "bytes": 263,
+          "sha256": "825ef9ba616ac57d9668639c86cf9c3caee227a26f9a8d1df79e5086b794def0",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0093.tsv",
+          "origin": "runs/5E10/s052.tsv",
+          "restore": "runs/5E10/s052.tsv",
+          "bytes": 263,
+          "sha256": "29991ecb64b994ba2223ae147232b1690212675b12fc4057a8275791ffce099d",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0094.tsv",
+          "origin": "runs/5E10/s053.tsv",
+          "restore": "runs/5E10/s053.tsv",
+          "bytes": 263,
+          "sha256": "af937934909b9b6110a54e617755e7b8271844f01b03bb49660b31f5b66b271b",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0095.tsv",
+          "origin": "runs/5E10/s054.tsv",
+          "restore": "runs/5E10/s054.tsv",
+          "bytes": 263,
+          "sha256": "416b41f39be807b18469b0b00595798d47559eb6f8cb9d0c4689adb76cac65b3",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0096.tsv",
+          "origin": "runs/5E10/s055.tsv",
+          "restore": "runs/5E10/s055.tsv",
+          "bytes": 263,
+          "sha256": "ed984fd275dfdd411ebf91b3e90cfb8380f9d2253b3490136bb45914c3a02cff",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0097.tsv",
+          "origin": "runs/5E10/s056.tsv",
+          "restore": "runs/5E10/s056.tsv",
+          "bytes": 263,
+          "sha256": "572ecfe0fb2fb1cf2c7c4b2cee775d466d6d8454b906d4ec3e499ec325cdaa44",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0098.tsv",
+          "origin": "runs/5E10/s057.tsv",
+          "restore": "runs/5E10/s057.tsv",
+          "bytes": 263,
+          "sha256": "41922f3e637ee8aa1793c5b70b40b86262a9c33b19a933aa25f77c89b5b3e39a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0099.tsv",
+          "origin": "runs/5E10/s058.tsv",
+          "restore": "runs/5E10/s058.tsv",
+          "bytes": 263,
+          "sha256": "d2e00682c38936f14fccbbc7fc2042c8ccff543483ea464c252f0751c55a30d2",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0100.tsv",
+          "origin": "runs/5E10/s059.tsv",
+          "restore": "runs/5E10/s059.tsv",
+          "bytes": 263,
+          "sha256": "b6d02e4f0946df715522421c28e3a1f8bd1195a99a5f127b3ee6198726700956",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0101.tsv",
+          "origin": "runs/5E10/s060.tsv",
+          "restore": "runs/5E10/s060.tsv",
+          "bytes": 263,
+          "sha256": "e1b5d06b381a74b2a706c91770b9abce1651587b4e6bf037164fb9144e6bc920",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0102.tsv",
+          "origin": "runs/5E10/s061.tsv",
+          "restore": "runs/5E10/s061.tsv",
+          "bytes": 263,
+          "sha256": "c40c521a8c95152bae83c7ba1fcaa98c0d77b75d21e4d249443dc499a99ba23f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0103.tsv",
+          "origin": "runs/5E10/s062.tsv",
+          "restore": "runs/5E10/s062.tsv",
+          "bytes": 263,
+          "sha256": "5f15daa222305ca62065fffcfa5949eb62f91b3448dda45f2af213bfbf756b89",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0104.tsv",
+          "origin": "runs/5E10/s063.tsv",
+          "restore": "runs/5E10/s063.tsv",
+          "bytes": 263,
+          "sha256": "b38f3965ae9fe1809486938cdd18350ca54efe05bc7d404b11cce34bfb64f372",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0105.tsv",
+          "origin": "runs/5E10/s064.tsv",
+          "restore": "runs/5E10/s064.tsv",
+          "bytes": 263,
+          "sha256": "5cf869403d25db9fd72204f5edf412153d6102b47aa885e5342766e5b3a60a47",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0106.tsv",
+          "origin": "runs/5E10/s065.tsv",
+          "restore": "runs/5E10/s065.tsv",
+          "bytes": 263,
+          "sha256": "ac1c5af2589e809e08901db59130a7e6ae9e50f267bc6b51bcaa5cf6a97cfe6a",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0107.tsv",
+          "origin": "runs/5E10/s066.tsv",
+          "restore": "runs/5E10/s066.tsv",
+          "bytes": 263,
+          "sha256": "5de62b0dbb93affe9b2da250f767141930def6f51b5d3f862613d80dffc2ee3f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0108.tsv",
+          "origin": "runs/5E10/s067.tsv",
+          "restore": "runs/5E10/s067.tsv",
+          "bytes": 263,
+          "sha256": "2b88d60cd87004c6282b933c471ba0d5df8eb9cd23c0e5f48207450775e2f671",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0109.tsv",
+          "origin": "runs/5E10/s068.tsv",
+          "restore": "runs/5E10/s068.tsv",
+          "bytes": 263,
+          "sha256": "8df85915060ddd32e34ef1fc1d5142c919cffbd23983b78a5768d9c4f733e282",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0110.tsv",
+          "origin": "runs/5E10/s069.tsv",
+          "restore": "runs/5E10/s069.tsv",
+          "bytes": 263,
+          "sha256": "0ed360e6f39e98a5bb3d3a79ed3b050a62ed523eb314b3dd48e6eb970c8d181c",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0111.tsv",
+          "origin": "runs/5E10/s070.tsv",
+          "restore": "runs/5E10/s070.tsv",
+          "bytes": 263,
+          "sha256": "c6abdf3441e58be2a7c6afa4a6e23859d1da92fb0a3e0be6454d43a7b6ba2394",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0112.tsv",
+          "origin": "runs/5E10/s071.tsv",
+          "restore": "runs/5E10/s071.tsv",
+          "bytes": 263,
+          "sha256": "8df7ecf8df2217c01cbd5b578532a7ab5ab7bfe2f5ad5fbf0166a9702a19743d",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0113.tsv",
+          "origin": "runs/5E10/s072.tsv",
+          "restore": "runs/5E10/s072.tsv",
+          "bytes": 263,
+          "sha256": "4e1d08bab19abb6830d66b07671e649628517ea5c1966093cd4efb177fd3f065",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0114.tsv",
+          "origin": "runs/5E10/s073.tsv",
+          "restore": "runs/5E10/s073.tsv",
+          "bytes": 263,
+          "sha256": "29dea1506df1330eef9a1b33c5d688241dbe8cba5ce5a26ee9d39b049e28db64",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0115.tsv",
+          "origin": "runs/first/hits.tsv",
+          "restore": "runs/first/hits.tsv",
+          "bytes": 177,
+          "sha256": "ae404072adb104794687c0b22cd5b4a9b0816615dce38ff0bc1ffc5acc988ba7",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0116.tsv",
+          "origin": "runs/first/man.tsv",
+          "restore": "runs/first/man.tsv",
+          "bytes": 356,
+          "sha256": "b953c66d84824f0cf8a5fc632da54b22491bbdcac2b0a21220c0b20ffe0ebfd4",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0117.cfg",
+          "origin": "runs/first/run.cfg",
+          "restore": "runs/first/run.cfg",
+          "bytes": 744,
+          "sha256": "168add4e8fb40482ccc310d3146be96d7ae841951b94a0abfa902bfb718db13f",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0118.sha",
+          "origin": "runs/first/s000.sha",
+          "restore": "runs/first/s000.sha",
+          "bytes": 65,
+          "sha256": "6a67387b7807b0bf6f59a3f4d9d05a5e884b0b4838be6b38892401a91f6e8cc7",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0119.tsv",
+          "origin": "runs/first/s000.tsv",
+          "restore": "runs/first/s000.tsv",
+          "bytes": 267,
+          "sha256": "64b9378ee6f3750c519778ee06c2a34b56640fc2fb991899a96a334246bfefdd",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0120.sha",
+          "origin": "runs/first/s001.sha",
+          "restore": "runs/first/s001.sha",
+          "bytes": 65,
+          "sha256": "e4f7a3fadb0d127c99ab67ff21d9159a6e275f02298c185c4eb7f477702e9085",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0121.tsv",
+          "origin": "runs/first/s001.tsv",
+          "restore": "runs/first/s001.tsv",
+          "bytes": 339,
+          "sha256": "c587645d025a09915863695eff8b551bc06c8ecb93fb3da96cc709f85493ba79",
+          "mode": 384,
+          "role": "authoritative original run/config/state/seal/aggregate"
+        },
+        {
+          "member": "f0122",
+          "origin": "src/Makefile",
+          "restore": "src/Makefile",
+          "bytes": 627,
+          "sha256": "a87630040811d0ccffdedc7f6df0959685d472fc82b867026a2a2e80ddf57cc1",
+          "mode": 436,
+          "role": "exact historical build identity"
+        },
+        {
+          "member": "f0123",
+          "origin": "src/a249110",
+          "restore": "src/a249110",
+          "bytes": 75896,
+          "sha256": "ae6b1e896bd0164bc9a87d568111e518b49b7ae8497f85f2e97d1c8a11b7028f",
+          "mode": 509,
+          "role": "exact executed Linux x86-64 binary; historical verification only"
+        }
+      ]
+    },
+    {
+      "path": "proof/dev.tgz",
+      "bytes": 140526,
+      "sha256": "d63bf7f441d7a982b643cf9b69cff6490105d48b6cdd000866322758439f289d",
+      "expanded_bytes": 1219680,
+      "members": [
+        {
+          "member": "check.py",
+          "origin": "validation/check.py",
+          "restore": "validation/check.py",
+          "bytes": 6422,
+          "sha256": "08881642a2a7aa21bbf7fa8628dcf30159569475668de1d7bf9b020b35a40ffd",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "wide.py",
+          "origin": "validation/wide.py",
+          "restore": "validation/wide.py",
+          "bytes": 6440,
+          "sha256": "b810c31b7f7e370ff555341f6febe8d3ff61126ab348fd6555e480881f191222",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "edges.py",
+          "origin": "validation/edges.py",
+          "restore": "validation/edges.py",
+          "bytes": 2891,
+          "sha256": "948f489d15ee50ff5c41ac87fbeebb9fbf70a6d535013789324b71b8c553786f",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "ops.py",
+          "origin": "validation/ops.py",
+          "restore": "validation/ops.py",
+          "bytes": 7413,
+          "sha256": "f97d83eb307226dbb36319587f1d4e9bb73c0fab5051e4af652f9da9e42c49cb",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "positive.py",
+          "origin": "validation/positive.py",
+          "restore": "validation/positive.py",
+          "bytes": 3027,
+          "sha256": "f61adc301f3d3ac21c4bb9dc12b5c17a0a8edede9dfb0ec539b694d93553195e",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "tools.py",
+          "origin": "validation/tools.py",
+          "restore": "validation/tools.py",
+          "bytes": 4370,
+          "sha256": "06ea9160a8a9f9ad066ae07da7906b949c54aceb79c42f4b974b40d0d478d60f",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "calibrate.py",
+          "origin": "validation/calibrate.py",
+          "restore": "validation/calibrate.py",
+          "bytes": 6227,
+          "sha256": "5125be4991f16cd7c7e1b03cd8e016ba39a26fb29168eec01bf27264c3dd1c35",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "fixtures.py",
+          "origin": "validation/fixtures.py",
+          "restore": "validation/fixtures.py",
+          "bytes": 1548,
+          "sha256": "a62dcdd18ac7c5c7e1b86654698a900c04e8804d1f6043f17b06123fcaa658d2",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "delta.py",
+          "origin": "validation/delta.py",
+          "restore": "validation/delta.py",
+          "bytes": 1953,
+          "sha256": "b93dce6932f3bec9e7f4f05c68f58452101d1e3c906c44e4277b95da0ae378df",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "native.c",
+          "origin": "validation/native.c",
+          "restore": "validation/native.c",
+          "bytes": 6204,
+          "sha256": "ca88e4ab5766e36b960a2ad9de573a5561a5322a4c64f7b66603854136f35572",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "io_faults.c",
+          "origin": "validation/io_faults.c",
+          "restore": "validation/io_faults.c",
+          "bytes": 1209,
+          "sha256": "b78aac95b19f899b98bec18759f2f9d6d4cfe80e2d79a3e645a7857c7c61a59f",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "tsan_controls.c",
+          "origin": "validation/tsan_controls.c",
+          "restore": "validation/tsan_controls.c",
+          "bytes": 788,
+          "sha256": "00e8411d0d4b901340d8bf008fd26166609d05640488da79c402736476883570",
+          "mode": 436,
+          "role": "original bounded development driver or native fixture"
+        },
+        {
+          "member": "f0012.json",
+          "origin": "outputs/precode/cases.json",
+          "restore": "outputs/precode/cases.json",
+          "bytes": 1129729,
+          "sha256": "a9c354bbb892a415864df89412d9413cc5179094ba5dfe14546298d8818ecd50",
+          "mode": 436,
+          "role": "frozen finite arithmetic oracle, 4095 inputs"
+        },
+        {
+          "member": "f0013.json",
+          "origin": "outputs/precode/oracle.json",
+          "restore": "outputs/precode/oracle.json",
+          "bytes": 40411,
+          "sha256": "0b1f3b9b0656722b558b39d744ede653d27598978e840bbd20e5537dbf99ba17",
+          "mode": 436,
+          "role": "frozen selected arithmetic inputs and bounded windows"
+        },
+        {
+          "member": "f0014.json",
+          "origin": "outputs/rev5/calplan.json",
+          "restore": "outputs/rev5/calplan.json",
+          "bytes": 1048,
+          "sha256": "f63f30b48403d945fef883d859c9b131c25fbdaf42797255a672ca837ba93cae",
+          "mode": 436,
+          "role": "original calibration protocol, retained not automatically executed"
+        }
+      ]
+    },
+    {
+      "path": "proof/logs.tgz",
+      "bytes": 330634,
+      "sha256": "987cf39bf947b696b9ab392ebdcc0c2cfbfa4239cd0f2eee6d03975d1b27b52b",
+      "expanded_bytes": 1589213,
+      "members": [
+        {
+          "member": "f0000.json",
+          "origin": "outputs/rev5/math.json",
+          "restore": "outputs/rev5/math.json",
+          "bytes": 290986,
+          "sha256": "11f86eebcac1fb29d32d65f31a8bb98314badd1ffaa053b11b5cc69d07c15e7c",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0001.json",
+          "origin": "outputs/rev5/wide.json",
+          "restore": "outputs/rev5/wide.json",
+          "bytes": 29365,
+          "sha256": "d92792866d4f4d14a61df4a2a68f6c7a642ace7ccd48eb2fdb6ae1e8932b6a08",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0002.json",
+          "origin": "outputs/rev5/ops.json",
+          "restore": "outputs/rev5/ops.json",
+          "bytes": 50085,
+          "sha256": "4278833b331521bef24d1d64f34c7ffecb9ebc5bb31e62d45cfc441012b47609",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0003.json",
+          "origin": "outputs/rev5/edges.json",
+          "restore": "outputs/rev5/edges.json",
+          "bytes": 22764,
+          "sha256": "7e72982836e0f2cc51340057471eaaeb38a8ff67b3b03c51e80d6668eaa5b2a8",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0004.json",
+          "origin": "outputs/rev5/positive.json",
+          "restore": "outputs/rev5/positive.json",
+          "bytes": 3556,
+          "sha256": "4f4e3a9da64a001e31f09dce6f6d317af119f48e62494e391d1435dc601a7fbc",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0005.json",
+          "origin": "outputs/rev5/asanraw.json",
+          "restore": "outputs/rev5/asanraw.json",
+          "bytes": 290991,
+          "sha256": "a1cbca08282af093f067f19f5685bff7ef5688da7c861a98367345bead80bc4b",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0006.json",
+          "origin": "outputs/rev5/asanwide.json",
+          "restore": "outputs/rev5/asanwide.json",
+          "bytes": 29529,
+          "sha256": "4e9ccaf5fee2c4b1cf940dfab6f51b286667e6871181d848f1050ff6f7c745b0",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0007.json",
+          "origin": "outputs/rev5/asanops.json",
+          "restore": "outputs/rev5/asanops.json",
+          "bytes": 36755,
+          "sha256": "46a3958f2546f131c99abffca94ff3fad90c611b2050edb7ef9641088be75084",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0008.json",
+          "origin": "outputs/rev5/clangraw.json",
+          "restore": "outputs/rev5/clangraw.json",
+          "bytes": 290842,
+          "sha256": "f82355f6f56e9c41d18ddd60e81e6e6b2ce7e5739b8dbcf267ba1641758f0de6",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0009.json",
+          "origin": "outputs/rev5/clangwide.json",
+          "restore": "outputs/rev5/clangwide.json",
+          "bytes": 29337,
+          "sha256": "b78dd50bb77f261bdc34440b80165b89cb0ec0f5afd64be67c142ed5cc1c3927",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0010.json",
+          "origin": "outputs/rev5/tsanraw.json",
+          "restore": "outputs/rev5/tsanraw.json",
+          "bytes": 290909,
+          "sha256": "b9a2e83131445044f4f0e38d2f76942d4c1fdeef0f16f0d274ee3627610ccbd7",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0011.json",
+          "origin": "outputs/rev5/tsanwide.json",
+          "restore": "outputs/rev5/tsanwide.json",
+          "bytes": 29440,
+          "sha256": "b5c9f94ed5bb8506f37dbf731bc3751d8930f73263517c7cc85f47f862ae9b96",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0012.json",
+          "origin": "outputs/rev5/tsanops.json",
+          "restore": "outputs/rev5/tsanops.json",
+          "bytes": 44456,
+          "sha256": "b8fe063ec6b18544744bcbd4299754456b71bfc96f19ea12cea47335716a805e",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0013.json",
+          "origin": "outputs/rev5/tools.json",
+          "restore": "outputs/rev5/tools.json",
+          "bytes": 9230,
+          "sha256": "15c50ed482757fa961518f91339a265d0fe39f4b29fcb935c03b419b3c702389",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0014.json",
+          "origin": "outputs/rev5/static.json",
+          "restore": "outputs/rev5/static.json",
+          "bytes": 29029,
+          "sha256": "ae59d86a2274b47dca1346c7a630cba9aec44e53500da0e7f2a302c2a5cd7b66",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0015.json",
+          "origin": "outputs/rev5/release.json",
+          "restore": "outputs/rev5/release.json",
+          "bytes": 10633,
+          "sha256": "76afb28bdc44d0d6fe18aacfcae0c92d843b64d5a8fac2fd9a2c97041fc52989",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0016.json",
+          "origin": "outputs/rev5/env.json",
+          "restore": "outputs/rev5/env.json",
+          "bytes": 7749,
+          "sha256": "f34971b452704a2e12e911fb2199e8079807380be3b1e80218549441c969f81b",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0017.json",
+          "origin": "outputs/rev5/cap.json",
+          "restore": "outputs/rev5/cap.json",
+          "bytes": 1904,
+          "sha256": "7014f0310f41e91b636a180c1b5c9b4fab1b7235971f4986acf92fdb97cfe0bb",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0018.json",
+          "origin": "outputs/rev5/calib.json",
+          "restore": "outputs/rev5/calib.json",
+          "bytes": 37630,
+          "sha256": "1d9623afd0f19d4d028e296904f62f16e3fa356941856cd4e147bae12deda9a5",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0019.json",
+          "origin": "outputs/rev5/abi.json",
+          "restore": "outputs/rev5/abi.json",
+          "bytes": 801,
+          "sha256": "aa59ad0f0dfbd92d132c1c4f0ec44359774eabe325984550aa209d96cc62f6ff",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0020.json",
+          "origin": "outputs/rev5/project.json",
+          "restore": "outputs/rev5/project.json",
+          "bytes": 6907,
+          "sha256": "f74e7eda8d78c1a362ed8e6d7993272ca9bd0f1980a353bcd6a7713803fe6067",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0021.json",
+          "origin": "outputs/rev5/delta.json",
+          "restore": "outputs/rev5/delta.json",
+          "bytes": 11795,
+          "sha256": "1817ab8da01d904b888bc4880e60da1efe369c581d3bd0838868878782acc278",
+          "mode": 436,
+          "role": "original final-identity development/measurement evidence"
+        },
+        {
+          "member": "f0022.md",
+          "origin": "outputs/ext01/cap.md",
+          "restore": "outputs/ext01/cap.md",
+          "bytes": 13246,
+          "sha256": "7e6a7c2b8ed2dfa13e43ec257fd2733a7abbef4154fc38df1b4b375e78421929",
+          "mode": 436,
+          "role": "corrected numeric/resource proof; historical pre-campaign context"
+        },
+        {
+          "member": "f0023.json",
+          "origin": "outputs/res22/close.json",
+          "restore": "outputs/res22/close.json",
+          "bytes": 1528,
+          "sha256": "44039a22b726b9c05e736e7071c958891b05ff206960dfbbe94e235059843990",
+          "mode": 436,
+          "role": "original final-result closure and canonical data identities"
+        },
+        {
+          "member": "f0024.txt",
+          "origin": "sources/A249110.txt",
+          "restore": "sources/A249110.txt",
+          "bytes": 1127,
+          "sha256": "1b355c5d5c5294005352ac0068e1761801d9f4e03b15152f0cf10b223051e302",
+          "mode": 436,
+          "role": "dated OEIS baseline/provenance snapshot, OEIS terms apply"
+        },
+        {
+          "member": "f0025.txt",
+          "origin": "outputs/rev5/calib.tgz!maximum16.txt",
+          "restore": "outputs/rev5/calraw/maximum16.txt",
+          "bytes": 860,
+          "sha256": "a058f2de4474eadcabf25d2a21be54d35357db42d0ce78116299f1093a73fc88",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0026.tsv",
+          "origin": "outputs/rev5/calib.tgz!maximum16/hits.tsv",
+          "restore": "outputs/rev5/calraw/maximum16/hits.tsv",
+          "bytes": 114,
+          "sha256": "b28c8c109b44c96efc8da5bb4a8b0404f8a723cda0c96094ad932616b9642ac5",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0027.tsv",
+          "origin": "outputs/rev5/calib.tgz!maximum16/man.tsv",
+          "restore": "outputs/rev5/calraw/maximum16/man.tsv",
+          "bytes": 248,
+          "sha256": "55626d742466a061ffc9ae41e0460d748d01235b13424320ca4f23697ab4f4ea",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0028.cfg",
+          "origin": "outputs/rev5/calib.tgz!maximum16/run.cfg",
+          "restore": "outputs/rev5/calraw/maximum16/run.cfg",
+          "bytes": 750,
+          "sha256": "8cdd467a4362609daa34816b0be3b31405cfc42209076ab78cdd3f5446239378",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0029.sha",
+          "origin": "outputs/rev5/calib.tgz!maximum16/s000.sha",
+          "restore": "outputs/rev5/calraw/maximum16/s000.sha",
+          "bytes": 65,
+          "sha256": "463fc4710bdeeef3518bc6fd6c95e531509540431be08e6201d9901550ad9a7f",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0030.tsv",
+          "origin": "outputs/rev5/calib.tgz!maximum16/s000.tsv",
+          "restore": "outputs/rev5/calraw/maximum16/s000.tsv",
+          "bytes": 271,
+          "sha256": "1276d30d1c74cda7fda38fc3f642a44f40598835293998ab12790441a04fb329",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0031.txt",
+          "origin": "outputs/rev5/calib.tgz!maximum8.txt",
+          "restore": "outputs/rev5/calraw/maximum8.txt",
+          "bytes": 859,
+          "sha256": "3fd04373780f48aec169e68d1bd4793c6397d2b828f69b04091c08fb5f6409a4",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0032.tsv",
+          "origin": "outputs/rev5/calib.tgz!maximum8/hits.tsv",
+          "restore": "outputs/rev5/calraw/maximum8/hits.tsv",
+          "bytes": 114,
+          "sha256": "5a03d19f5fd705016b8189bd1b28ee55ec1f57b91c387fb0e609b7b17895f795",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0033.tsv",
+          "origin": "outputs/rev5/calib.tgz!maximum8/man.tsv",
+          "restore": "outputs/rev5/calraw/maximum8/man.tsv",
+          "bytes": 248,
+          "sha256": "74bd616d25c251db551b14086be7750f00c836c356ad0c62a51595346b7ec1da",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0034.cfg",
+          "origin": "outputs/rev5/calib.tgz!maximum8/run.cfg",
+          "restore": "outputs/rev5/calraw/maximum8/run.cfg",
+          "bytes": 749,
+          "sha256": "937c2e1bf98717e67ab691754b919d59093d74bd7ae09ccdac7f9bcb63e8fad2",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0035.sha",
+          "origin": "outputs/rev5/calib.tgz!maximum8/s000.sha",
+          "restore": "outputs/rev5/calraw/maximum8/s000.sha",
+          "bytes": 65,
+          "sha256": "63574c53b4cad71b7dc8025b8baed18678675bbcbe01f9d6ed6e8697c8cc2c28",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0036.tsv",
+          "origin": "outputs/rev5/calib.tgz!maximum8/s000.tsv",
+          "restore": "outputs/rev5/calraw/maximum8/s000.tsv",
+          "bytes": 271,
+          "sha256": "cb0446f4e94085b7774896074d69495c041952e8f80381c02f8e5f45d59e2ee3",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0037.txt",
+          "origin": "outputs/rev5/calib.tgz!middle16.txt",
+          "restore": "outputs/rev5/calraw/middle16.txt",
+          "bytes": 860,
+          "sha256": "75524c4b5351744fd7432d37f22cb4c6c3ecad95130a94d24ce19306436158bb",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0038.tsv",
+          "origin": "outputs/rev5/calib.tgz!middle16/hits.tsv",
+          "restore": "outputs/rev5/calraw/middle16/hits.tsv",
+          "bytes": 114,
+          "sha256": "4e9bf70d0be269cc0192a8f852dc36c16d25e7db8771a7f1f2d1f6eae21bab40",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0039.tsv",
+          "origin": "outputs/rev5/calib.tgz!middle16/man.tsv",
+          "restore": "outputs/rev5/calraw/middle16/man.tsv",
+          "bytes": 247,
+          "sha256": "125a22850462a7898e859a7af3f0eebcd60ac3547af0be31bd2925c8d5f34b9c",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0040.cfg",
+          "origin": "outputs/rev5/calib.tgz!middle16/run.cfg",
+          "restore": "outputs/rev5/calraw/middle16/run.cfg",
+          "bytes": 749,
+          "sha256": "003d413765011ee2a44dc05541fd067e3f09248d0c326a87aa58d7ffbfd58305",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0041.sha",
+          "origin": "outputs/rev5/calib.tgz!middle16/s000.sha",
+          "restore": "outputs/rev5/calraw/middle16/s000.sha",
+          "bytes": 65,
+          "sha256": "aa58f8948a9a0c0c2f5abaa6b9d10c20d7072348fbf53f8ef8568746b419204d",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0042.tsv",
+          "origin": "outputs/rev5/calib.tgz!middle16/s000.tsv",
+          "restore": "outputs/rev5/calraw/middle16/s000.tsv",
+          "bytes": 270,
+          "sha256": "a4561ca077d0b057b59c1f4581d0ffd540b2e330d26ed197a9a36bcc2fcb4848",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0043.txt",
+          "origin": "outputs/rev5/calib.tgz!middle8.txt",
+          "restore": "outputs/rev5/calraw/middle8.txt",
+          "bytes": 858,
+          "sha256": "f2dddd1a3b119357b9e65b1c9a5812b95487833796e9a4e2ab771a6a4fc161a6",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0044.tsv",
+          "origin": "outputs/rev5/calib.tgz!middle8/hits.tsv",
+          "restore": "outputs/rev5/calraw/middle8/hits.tsv",
+          "bytes": 114,
+          "sha256": "618c21907340ea19896b71702c594bb1f74df225fad90d29b9fa7cddf7718864",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0045.tsv",
+          "origin": "outputs/rev5/calib.tgz!middle8/man.tsv",
+          "restore": "outputs/rev5/calraw/middle8/man.tsv",
+          "bytes": 247,
+          "sha256": "147d20a292e45cc9e315c6d7926a53fc0eba5746ba3410515d6d5b146344bda5",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0046.cfg",
+          "origin": "outputs/rev5/calib.tgz!middle8/run.cfg",
+          "restore": "outputs/rev5/calraw/middle8/run.cfg",
+          "bytes": 748,
+          "sha256": "7ea81dfe671acef5cb4d37fa370009620f411ae33dbad81dc45672b153ab9e82",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0047.sha",
+          "origin": "outputs/rev5/calib.tgz!middle8/s000.sha",
+          "restore": "outputs/rev5/calraw/middle8/s000.sha",
+          "bytes": 65,
+          "sha256": "c112f14e7d0351309037149cedfc6c2426e2898b36c377e0afc2a6716f9b449c",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0048.tsv",
+          "origin": "outputs/rev5/calib.tgz!middle8/s000.tsv",
+          "restore": "outputs/rev5/calraw/middle8/s000.tsv",
+          "bytes": 270,
+          "sha256": "8b66e9a6988005479cc9f023677f30eef021a6cdefbd1c04bc9a0c36d9242fa2",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0049.txt",
+          "origin": "outputs/rev5/calib.tgz!start16.txt",
+          "restore": "outputs/rev5/calraw/start16.txt",
+          "bytes": 856,
+          "sha256": "25857165042c6728d041727b17a81c933116dec0a42f02e95669864015c8bec1",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0050.tsv",
+          "origin": "outputs/rev5/calib.tgz!start16/hits.tsv",
+          "restore": "outputs/rev5/calraw/start16/hits.tsv",
+          "bytes": 114,
+          "sha256": "85549286bb8a042225b9337e892928034aa5aefe26f8e606aebba94411e21b1b",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0051.tsv",
+          "origin": "outputs/rev5/calib.tgz!start16/man.tsv",
+          "restore": "outputs/rev5/calraw/start16/man.tsv",
+          "bytes": 238,
+          "sha256": "028c08775f586731c85fc785f6a6593ffa0c7c0320da808c1e7d3b9cccf1aa62",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0052.cfg",
+          "origin": "outputs/rev5/calib.tgz!start16/run.cfg",
+          "restore": "outputs/rev5/calraw/start16/run.cfg",
+          "bytes": 741,
+          "sha256": "23f37563d4beb2664c8d8f2f5499788f4adf1a704bbd836312d664852964299c",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0053.sha",
+          "origin": "outputs/rev5/calib.tgz!start16/s000.sha",
+          "restore": "outputs/rev5/calraw/start16/s000.sha",
+          "bytes": 65,
+          "sha256": "5b8c6dc05ac281aa44a571a9f5c71002020761db6799ffbc18a99349fec318af",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0054.tsv",
+          "origin": "outputs/rev5/calib.tgz!start16/s000.tsv",
+          "restore": "outputs/rev5/calraw/start16/s000.tsv",
+          "bytes": 257,
+          "sha256": "4ac6f187c9e9361369a213f978ba47ea09e3241bb26f49aac8d0bf43e151c75a",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0055.txt",
+          "origin": "outputs/rev5/calib.tgz!start8.txt",
+          "restore": "outputs/rev5/calraw/start8.txt",
+          "bytes": 855,
+          "sha256": "01456574e9514e7bbc9bc07594b6f8afdca0edfdcd6e722f57b39496052fd792",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0056.tsv",
+          "origin": "outputs/rev5/calib.tgz!start8/hits.tsv",
+          "restore": "outputs/rev5/calraw/start8/hits.tsv",
+          "bytes": 114,
+          "sha256": "d3c7be2cc06c427f02d4c7c940897f85635b3d91c58c135de3a8b2fea8ccf6fe",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0057.tsv",
+          "origin": "outputs/rev5/calib.tgz!start8/man.tsv",
+          "restore": "outputs/rev5/calraw/start8/man.tsv",
+          "bytes": 238,
+          "sha256": "ea28c0fcd5dc461a7c0495cc0ae0330f1e2a4f5fd3bbde40d760022cb6ed50b4",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0058.cfg",
+          "origin": "outputs/rev5/calib.tgz!start8/run.cfg",
+          "restore": "outputs/rev5/calraw/start8/run.cfg",
+          "bytes": 740,
+          "sha256": "b2c709137004b79e6fce18451ddcad9bda0ae52507014dfed90e9dde53c21ed6",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0059.sha",
+          "origin": "outputs/rev5/calib.tgz!start8/s000.sha",
+          "restore": "outputs/rev5/calraw/start8/s000.sha",
+          "bytes": 65,
+          "sha256": "c54ef0c01836ddd1ab63af5f5b3c0c263bc531b4e313bff890a5004293e1265a",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0060.tsv",
+          "origin": "outputs/rev5/calib.tgz!start8/s000.tsv",
+          "restore": "outputs/rev5/calraw/start8/s000.tsv",
+          "bytes": 257,
+          "sha256": "285b786c98618b99092d3048e3003e1b4e280e7a04d20462357333e67a703fc0",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0061.txt",
+          "origin": "outputs/rev5/calib.tgz!witness16.txt",
+          "restore": "outputs/rev5/calraw/witness16.txt",
+          "bytes": 861,
+          "sha256": "d973a80a3e30d16f49eb61d269e2f94a2fdcaf93d8157c2a2cbd47e59753aa46",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0062.tsv",
+          "origin": "outputs/rev5/calib.tgz!witness16/hits.tsv",
+          "restore": "outputs/rev5/calraw/witness16/hits.tsv",
+          "bytes": 177,
+          "sha256": "dab3ae7bc3e35484fe78e010054789841032424b9bff3546f14cb9c53b22b332",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0063.tsv",
+          "origin": "outputs/rev5/calib.tgz!witness16/man.tsv",
+          "restore": "outputs/rev5/calraw/witness16/man.tsv",
+          "bytes": 245,
+          "sha256": "c2d6bb93110785b7af91d5f63bb503925ee0d40c7235c2b3b446c4a1c5070b4b",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0064.cfg",
+          "origin": "outputs/rev5/calib.tgz!witness16/run.cfg",
+          "restore": "outputs/rev5/calraw/witness16/run.cfg",
+          "bytes": 748,
+          "sha256": "6456721dbabdbc36cafa530cc70fc356b0d760d60b2ee0e78191c156eb93571f",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0065.sha",
+          "origin": "outputs/rev5/calib.tgz!witness16/s000.sha",
+          "restore": "outputs/rev5/calraw/witness16/s000.sha",
+          "bytes": 65,
+          "sha256": "a3de6427d2f05025b19ce496a176d0abdcc700d53961ba843ea0ffa070d82f36",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0066.tsv",
+          "origin": "outputs/rev5/calib.tgz!witness16/s000.tsv",
+          "restore": "outputs/rev5/calraw/witness16/s000.tsv",
+          "bytes": 334,
+          "sha256": "8dd8a080e7af14c76dac5313b95f5c0752046a192ee3a77afa2b8826e3aeff4f",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0067.txt",
+          "origin": "outputs/rev5/calib.tgz!witness8.txt",
+          "restore": "outputs/rev5/calraw/witness8.txt",
+          "bytes": 858,
+          "sha256": "2a86e556d9107486d1bcda0ad08f4721ba7140ea432100d9a3210381820b4b9f",
+          "mode": 436,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0068.tsv",
+          "origin": "outputs/rev5/calib.tgz!witness8/hits.tsv",
+          "restore": "outputs/rev5/calraw/witness8/hits.tsv",
+          "bytes": 177,
+          "sha256": "f9e8072e4d3d819277138799ae45ede431182768dffe5ba7b21da3a9394ece70",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0069.tsv",
+          "origin": "outputs/rev5/calib.tgz!witness8/man.tsv",
+          "restore": "outputs/rev5/calraw/witness8/man.tsv",
+          "bytes": 246,
+          "sha256": "177a5295a7e8e6c39d2fdee8d100ecb032b1a338bcc30c2f738041a7ff55281f",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0070.cfg",
+          "origin": "outputs/rev5/calib.tgz!witness8/run.cfg",
+          "restore": "outputs/rev5/calraw/witness8/run.cfg",
+          "bytes": 747,
+          "sha256": "4f20a23664b0f95311451cd2eb1d4c6a5e6604bfbe92b7a737726759518a82cc",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0071.sha",
+          "origin": "outputs/rev5/calib.tgz!witness8/s000.sha",
+          "restore": "outputs/rev5/calraw/witness8/s000.sha",
+          "bytes": 65,
+          "sha256": "6f8b88a6c5d97d58aebf601bce395d87cc5124969ca71894486b09b2b714ac97",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        },
+        {
+          "member": "f0072.tsv",
+          "origin": "outputs/rev5/calib.tgz!witness8/s000.tsv",
+          "restore": "outputs/rev5/calraw/witness8/s000.tsv",
+          "bytes": 335,
+          "sha256": "fa479836afa4ab13db23f1ac52261940bcf62b9c2aee968ad8e55e7008ea18ce",
+          "mode": 384,
+          "role": "original calibration arm records/time-v; not official coverage"
+        }
+      ]
+    }
+  ],
+  "shared": [
+    {
+      "path": "src/a249110.c",
+      "restore": "src/a249110.c",
+      "bytes": 55109,
+      "sha256": "4dd14813bef00ed88eb7fec188afa26d7ebd6b80dce3168963ee1b8fc28324c9",
+      "mode": 420
+    },
+    {
+      "path": "data/a249110.txt",
+      "restore": "data/a249110.txt",
+      "bytes": 1029,
+      "sha256": "d06e7b2aaa2357f241924498a369872d969113cd0f02cd1487912e21651a00f5",
+      "mode": 420
+    },
+    {
+      "path": "data/b249110.txt",
+      "restore": "data/b249110.txt",
+      "bytes": 88,
+      "sha256": "4fdc076ad28f742be4bb5e16ead7863d32d5adcfca67855b04aa7aac8e125e27",
+      "mode": 420
+    },
+    {
+      "path": "paper/analyze.py",
+      "restore": "paper/analyze.py",
+      "bytes": 6958,
+      "sha256": "971274d9b7e071eb67632d9461ce4ffbc51bc27f63305c70da7d05a373fd2d80",
+      "mode": 420
+    },
+    {
+      "path": "check/records.py",
+      "restore": "validation/verify.py",
+      "bytes": 7190,
+      "sha256": "8d1fe3d25633f572cae74505c409c496d1344591a3d90c30247514b1defbc1dd",
+      "mode": 420
+    },
+    {
+      "path": "check/afile.py",
+      "restore": "validation/afile.py",
+      "bytes": 3360,
+      "sha256": "eb717639c1ab49049c303431cc292b56b1a1ef245cc6fe0aec708c9df02e6e1e",
+      "mode": 420
+    }
+  ],
+  "notes": [
+    "Original SOURCE and C numerical behavior unchanged.",
+    "Only public Makefile check routing changes; see name.diff.",
+    "No official census is rerun by package preparation or default verifier.",
+    "Private reviews/obsolete drafts, duplicate binaries, external books/papers excluded."
+  ]
+}

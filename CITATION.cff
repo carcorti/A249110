@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript using the preferred citation. This is a local publication draft; DOI, version and date are provisional author-designated metadata."
+type: software
+title: "A249110: Exact Arithmetic-Derivative Enumeration and Witness Verification"
+authors:
+  - family-names: Corti
+    given-names: Carlo
+    affiliation: Independent researcher
+    email: carlo.corti@outlook.com
+version: v1.0
+date-released: "2026-10-27"
+doi: 10.5281/zenodo.xxxxxxxx
+url: https://doi.org/10.5281/zenodo.xxxxxxxx
+repository-code: https://github.com/carcorti/A249110
+license: MIT
+abstract: >-
+  Exact C17/OpenMP arithmetic-derivative enumeration, canonical nine-term
+  indexed and documentary tables, independent finite Python arithmetic and
+  record verification, and an English monolithic manuscript for OEIS A249110.
+  New recorded coverage runs from 823544 through 22000000000 inclusive.
+  Consecutive indexing depends on the inherited five-term baseline and the
+  sole producer's complete saved records and finite-domain primality premises;
+  the positive checks do not independently repeat the negative census.
+  This is the local raw draft for intended first release v1.0. No remote
+  release or real Zenodo deposit is asserted; the date is the planned date.
+keywords:
+  - arithmetic derivative
+  - number theory
+  - Pythagorean tuples
+  - OEIS
+  - exact enumeration
+  - reproducible computation
+preferred-citation:
+  type: article
+  title: "Nine-Square Arithmetic-Derivative Tuples: An Extension of OEIS A249110 and Their Scaling Structure"
+  authors:
+    - family-names: Corti
+      given-names: Carlo
+      affiliation: Independent researcher
+      email: carlo.corti@outlook.com
+  year: 2026
+  doi: 10.5281/zenodo.xxxxxxxx
+  url: https://doi.org/10.5281/zenodo.xxxxxxxx
