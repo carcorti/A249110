@@ -25,7 +25,7 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 TITLE = ('Nine-Square Arithmetic-Derivative Tuples: An Extension of OEIS '
          'A249110 and Their Scaling Structure')
-DOI = '10.5281/zenodo.xxxxxxxx'
+DOI = '10.5281/zenodo.23695423'
 CALLS = []
 
 def need(ok, message):
@@ -110,13 +110,13 @@ def metadata(index):
     # runtime cross-file invariants for the already-frozen metadata bytes.
     need('cff-version: 1.2.0\n' in cff and 'type: software\n' in cff, 'CFF format')
     need('family-names: Corti' in cff and 'given-names: Carlo' in cff, 'CFF author')
-    need(cff.count(DOI) == 4 and TITLE in cff and 'version: v1.0\n' in cff, 'CFF title/version/DOIs')
+    need(cff.count(DOI) == 4 and TITLE in cff and 'version: v1.0.1\n' in cff, 'CFF title/version/DOIs')
     need('https://github.com/carcorti/A249110' in cff, 'CFF repository')
     need('Copyright (c) 2026 Carlo Corti' in (ROOT/'LICENSE').read_text(), 'license identity')
-    tex = (ROOT/'paper/A249110_v2.tex').read_text()
+    tex = (ROOT/'paper/A249110.tex').read_text()
     need('\\author{Carlo Corti\\\\Independent researcher\\\\' in tex, 'TeX author')
     need('carlo.corti@outlook.com' in tex and '\\date{October 2026}' in tex, 'TeX email/date')
-    need('https://doi.org/'+DOI in tex, 'TeX designated sentinel')
+    need('https://doi.org/'+DOI in tex, 'TeX designated series DOI')
     need(not re.search(r'\\(?:input|include|bibliography|addbibresource)\b', tex), 'monolithic TeX')
     need(TITLE in tex, 'TeX/CFF title mismatch')
     old_check = 'check: a249110\n\tpython3 -B ../validation/check.py\n\tpython3 -B ../validation/wide.py\n'

@@ -2,7 +2,7 @@
   "schema": 1,
   "author": "Carlo Corti",
   "prepared": "2026-10-27",
-  "status": "PACKAGE_DRAFT \u2014 AWAITING AUTHOR INSPECTION",
+  "status": "RELEASE_PACKAGE",
   "archive_layout": "compact members; original paths reconstructed only outside payload",
   "historical_identity": {
     "src/a249110.c": "4dd14813bef00ed88eb7fec188afa26d7ebd6b80dce3168963ee1b8fc28324c9",

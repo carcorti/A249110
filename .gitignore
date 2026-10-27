@@ -1,0 +1,12 @@
+# Generated files only; the delivered paper/A249110.pdf is retained.
+__pycache__/
+*.py[cod]
+/src/a249110
+/paper/*.aux
+/paper/*.log
+/paper/*.out
+/paper/*.toc
+/paper/*.synctex.gz
+*~
+*.swp
+.DS_Store
